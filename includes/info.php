@@ -16,9 +16,9 @@ $bing = ''; //Bing Verification Code
 
 $facebook = 'https://facebook.com/lifehacker.rayhan'; //Facebook Fanpage URL
 
-//$twitter = 'https://twitter.com/Your_twitter_username'; //Twitter URL
+//$twitter = 'https://twitter.com/'; //Twitter URL
 
-$google = 'https://plus.google.com/115249901375126350657'; //Your Google+ Here
+$google = 'https://plus.google.com'; //Your Google+ Here
 
 $mail = 'rayhansardar9@gmail.com'; //Your Email Here
 $info = 'Welcome To Youtube Download Zone';
