@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^download/(.+)/(.+)$ /view-video.php?id=$1&name=$2 [L]
+RewriteRule ^music/(.+)$ music.php?v=$1
+RewriteRule ^search/(.+)/page/(.+)$ search-results.php?q=$1&page=$2
+RewriteRule ^search/(.+)$ search-results.php?q=$1
+RewriteRule ^page/(.+)$ index.php?page=$1
+RewriteRule ^download/(.+)/(.+)$ /view-video.php?id=$1
+RewriteRule ^dload/(.+)/(.+)$ /view-video.php?id=$1
+RewriteRule ^query/(.+)/page/(.+)$ /index.php?q=$1&page=$2
+RewriteRule ^video/?$ /view-video.php 
+
+Options -Indexes
+ErrorDocument 402 /index.php
+ErrorDocument 403 /index.php
+ErrorDocument 404 /index.php
+ErrorDocument 500 /index.php
