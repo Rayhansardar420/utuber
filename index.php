@@ -1,7 +1,7 @@
 <?php
 include 'includes/func.php';
 
-$title  ='Tube Boss'; //Edit Homepage Title
+$title  ='Youtuber'; //Edit Homepage Title
 
 include 'includes/config.php';
 echo'<div class="subheader">Top Videos</div>';
