@@ -4,7 +4,7 @@ $site = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'';
 
 $host = $_SERVER['HTTP_HOST'];
 
-$sitename ='Tube Boss'; // Your Site Name
+$sitename ='YouTuber'; // Your Site Name
 
 $logo = '/logo.png'; //Logo Picture URL
 
